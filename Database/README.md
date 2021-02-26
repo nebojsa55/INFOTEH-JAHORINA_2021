@@ -1,4 +1,4 @@
-# Open-source EGG Database
+# Open-access EGG Database
 
 Electrogastrograms ([EGG](https://en.wikipedia.org/wiki/Electrogastrogram)) used in this paper are freely available at the Zenodo repository [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3878435.svg)](https://doi.org/10.5281/zenodo.3878435)
 
