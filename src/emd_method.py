@@ -2,8 +2,7 @@
 @authors: Nebojsa Jovanovic (nebojsa.php@gmail.com)
           Nenad B. Popovic (nenad.pop92@gmail.com)
           Nadica Miljkovic (nadica.miljkovic@etf.rs)
-          Faculty of Electrical Engineering, University of Belgrade
-         
+          University of Belgrade - School of Electrical Engineering         
 """
 
 import os
