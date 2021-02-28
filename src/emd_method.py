@@ -23,7 +23,7 @@ if __name__ == '__main__':
     N = 2400 
     Nfft = 4096
     fs = 2 # Hz
-    path = os.path.abspath(os.getcwd()) + '\Database'
+    path = os.path.abspath(os.path.join(os.getcwd(),os.pardir)) + '\Database'
     LF = 0.016 # Hz
     HF = 0.25 # Hz
     pmax_ref = 0.5
@@ -47,13 +47,13 @@ if __name__ == '__main__':
     for snr in tqdm.tqdm(noise_range, total = len(noise_range)):
         # Adding noise 
         np.random.seed(0)
-        # egg_noise = AWGN(egg,snr)
-        egg_noise = AWGN_dynamic(egg,snr)
+        egg_noise = AWGN(egg,snr)
+        # egg_noise = AWGN_dynamic(egg,snr)
         
         # Performing EMD
         start = time.process_time()
-        # imfs = emd.sift.sift(egg_noise)
-        imfs = emd.sift.ensemble_sift(egg_noise,nensembles = 64,max_imfs = 5)
+        imfs = emd.sift.sift(egg_noise)
+        # imfs = emd.sift.ensemble_sift(egg_noise,nensembles = 64,max_imfs = 5)
         TIMES.append(time.process_time()-start)
         Nimfs = len(imfs[0,:])
         # emd.plotting.plot_imfs(imfs, cmap=True, scale_y=True)
