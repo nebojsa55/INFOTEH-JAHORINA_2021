@@ -1,5 +1,5 @@
 
-<a href = "https://infoteh.etf.ues.rs.ba/"><img src="docs/logo-top.png"></a><a href = "https://infoteh.etf.ues.rs.ba/"><img src= "docs/ieee-logo-top.jpg"></a><br>
+<a href = "https://infoteh.etf.ues.rs.ba/"><img src="docs/logo-top.png"></a><br>
 -----------------------------------------------------------------------------------------------------------------------
 
 This repository contains complete code in Python programming language, which implements the method for automatic [IMF](https://en.wikipedia.org/wiki/Hilbert%E2%80%93Huang_transform) (Intrinsic mode functions) selection in EGG recording described in the paper "Empirical mode decomposition for automatic artifact elimination in electrogastrogram". The paper was published on [Infoteh IEEE conference 2021](https://infoteh.etf.ues.rs.ba/) held in Jahorina, Bosnia and Herzegovina.
