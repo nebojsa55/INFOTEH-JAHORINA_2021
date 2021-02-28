@@ -13,11 +13,15 @@ Nenad B. Popović:  <a itemprop="sameAs" content="https://orcid.org/0000-0002-52
 
 Nadica Miljković:  <a itemprop="sameAs" content="https://orcid.org/0000-0002-3933-6076" href="https://orcid.org/0000-0002-3933-6076" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-3933-6076</a>
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+--------------------------------------------------------------------------------------------------------------------------------------
 ### Folder description
 1. *Database* - contains README.md file with a link to the Zenodo page containing the used EGG dataset
 2. *src* - Python source code
-3. *docs* - contains file *Benchmark_DFs.csv* which contain DF (Dominant frequency) values used as a ground truth when assessing method efficiency    
-----------------------------------------------------
+
+-------------------------------------------------------
+### Instructions
+
+1. run script emd_method.py
+2. .....
+-------------------------------------
 If you use this code, please cite the relevant paper as:
