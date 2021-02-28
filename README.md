@@ -18,10 +18,5 @@ Nadica Miljković:  <a itemprop="sameAs" content="https://orcid.org/0000-0002-39
 1. *Database* - contains README.md file with a link to the Zenodo page containing the used EGG dataset
 2. *src* - Python source code
 
--------------------------------------------------------
-### Instructions
-
-1. run script emd_method.py
-2. .....
 -------------------------------------
-If you use this code, please cite the relevant paper as:
+DISCLAIMER: The Python code is provided without any guarantee and it is not intended for medical purposes.
